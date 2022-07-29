@@ -87,7 +87,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands.
 '''
         sendMarkup(start_string, context.bot, update.message, reply_markup)
     else:
-        sendMarkup('Sorry bruh, you cannot use me. Deploy your own AK-Mirror-Leech-Bot if you want(@AK_Mirror) or join mirror group', context.bot, update.message, reply_markup)
+        sendMarkup('Sorry bruh, you cannot use me. Deploy your own contact @Modgrouoadmin for help', context.bot, update.message, reply_markup)
 
 def restart(update, context):
     restart_message = sendMessage("Restarting...", context.bot, update.message)
